@@ -6,7 +6,7 @@ import pandas as pd
 # Load the Random Forest model
 model = joblib.load("liver-disease-model.pkl")
 
-st.title("Liver Disease Prediction App")
+st.title("Liver Disease Prediction")
 
 # Input form for user to enter data
 
