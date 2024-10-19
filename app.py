@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the model
 # Load the Random Forest model
-model = joblib.load("random_forest_model.pkl")
+model = joblib.load("liver-disease-model.pkl")
 
 st.title("Liver Disease Prediction App")
 
